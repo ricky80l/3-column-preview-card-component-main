@@ -30,12 +30,22 @@ img {
     max-width: 78rem;
 }
 
-.col-md-4 {
-    padding: 2.5rem;
+h1 {
+    color: rgba(0, 0, 0, 0.0);
+    position: fixed;
+    top: 15%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
 /* SUB-SECTION */
+
+.col-md-4 {
+    padding: 2.5rem;
+}
 
 .sedans {
     background-color: hsl(31, 77%, 52%);
@@ -64,7 +74,7 @@ img {
 }
 
 .type {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display', sans-serif;
     font-weight: 700;
     color: hsl(0, 0%, 95%);
     padding: 1.5rem 0;
